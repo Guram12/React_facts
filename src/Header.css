@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-left: 26px;
+    margin-right: 27px;
+    width: 100%;
+}
+
+/* Add styles for the logo and h1 elements */
+.header img {
+    display: inline-block; /* Add this to make the image inline */
+    width: 28.93px;
+    height: 28.93px;
+    flex-shrink: 0;
+
+    margin-right: 5px;
+
+}
+
+.header h1 {
+    display: inline-block; /* Add this to make the h1 element inline */
+    margin: 0; /* Remove default margin */
+    width: 122.394px;
+    height: 22.253px;
+    color: #61DAFB;
+    font-family: Inter;
+    font-size: 22.253px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.113px;
+    }
+
+.react_course {
+    width: 259px;
+    height: 21px;  
+    flex-shrink: 0;
+    color: #DEEBF8;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.logo_facts {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 91px;
+    background-color:#21222A ;
+    margin: 0 auto;
+}
