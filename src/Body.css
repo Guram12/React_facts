@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@700&display=swap');
+
+
+.conteiner2 {
+    
+    padding-top: 57px;
+    width: 550px;
+    height: 459px;
+    background: #282D35;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.fucts{
+    width: 424px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 39.06px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.953px;
+    margin-top: 0px;
+    margin-left: 27px;
+}
+
+
+.ul_tag {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 37px;
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:#61DAFB; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em;
+    margin-bottom: 20px ;
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+.react_img {
+    position: absolute;
+    top: 207px;
+    left: 559px;
+}
