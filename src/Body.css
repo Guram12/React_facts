@@ -2,13 +2,13 @@
 
 
 .conteiner2 {
-    
+    position: relative;
     padding-top: 57px;
     width: 550px;
     height: 459px;
     background: #282D35;
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .fucts{
@@ -39,18 +39,18 @@
 }
 
 ul li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color:#61DAFB; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
+    content: "\2022";  
+    color:#61DAFB; 
+    font-weight: bold; 
+    display: inline-block; 
     width: 1em;
     margin-bottom: 20px ;
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
 }
 
-
 .react_img {
-    position: absolute;
-    top: 207px;
-    left: 559px;
+  position: absolute;
+  left: 418px;
+  top: 0;
+  margin-top: 107px ;
 }

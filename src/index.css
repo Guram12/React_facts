@@ -2,3 +2,10 @@
     margin: 0%;
     background: #677283;
 }
+
+#root{
+     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Take the full height of the viewport */
+}
